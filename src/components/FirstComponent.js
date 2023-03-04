@@ -1,5 +1,5 @@
 
-import links from 'https://www.apple.com/'
+
 
 
 
@@ -19,8 +19,8 @@ function FirstComponent() {
 
 			<div className="links-wrapper">
 				<ul>
-					<li><a href={links}>Learn more</a></li>
-					<li><a href={links}>Order</a></li>
+					<li><a href="http://www.aple.com">Learn more</a></li>
+					<li><a href="http://www.aple.com">Order</a></li>
 				</ul> 
 			</div>
 
@@ -52,8 +52,8 @@ function FirstComponent() {
 
 			<div className="links-wrapper">
 				<ul>
-					<li><a href={links}>Learn more</a></li>
-					<li><a href={links}>Buy</a></li>
+					<li><a href="http://www.aple.com">Learn more</a></li>
+					<li><a href="http://www.aple.com">Buy</a></li>
 				</ul> 
 			</div>
 		</div>
@@ -75,8 +75,8 @@ function FirstComponent() {
 
 			<div className="links-wrapper">
 				<ul>
-					<li><a href={links}>Learn more</a></li>
-					<li><a href={links}>Buy</a></li>
+					<li><a href="http://www.aple.com">Learn more</a></li>
+					<li><a href="http://www.aple.com">Buy</a></li>
 				</ul> 
 			</div>
 		</div>

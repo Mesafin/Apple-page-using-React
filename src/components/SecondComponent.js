@@ -1,5 +1,4 @@
 
-import links from 'https://www.apple.com/'
 import tvLogo from '../commonResources/images/icons/apple-tv-logo.png'
 import banker from '../commonResources/images/home/banker.png'
 import watchSeriousLogo from '../commonResources/images/icons/watch-series5-logo.png'
@@ -26,8 +25,8 @@ function SecondComponent() {
 
 						<div className="links-wrapper">
 							<ul>
-								<li><a href={links}>Learn more</a></li>
-								<li><a href={links}>Apply now</a></li>
+								<li><a href="http://www.aple.com">Learn more</a></li>
+								<li><a href="http://www.aple.com">Apply now</a></li>
 							</ul> 
 						</div>
 					</div>
@@ -40,7 +39,7 @@ function SecondComponent() {
 
 						<div className="links-wrapper white">
 							<ul>
-								<li><a href={links}>Watch the PSA</a></li>
+								<li><a href="http://www.aple.com">Watch the PSA</a></li>
 							</ul> 
 						</div>
 					</div>
@@ -56,16 +55,16 @@ function SecondComponent() {
 					<div className="left-side-container">
 						<div className="top-logo-wrapper">
 							<div className="logo-wrapper">
-								<img src={tvLogo} />
+								<img alt="image" src={tvLogo} />
 							</div>
 						</div>
 
 						<div className="tvshow-logo-wraper">
-							<img src={banker} />
+							<img alt="image" src={banker} />
 						</div>
 
 						<div className="watch-more-wrapper">
-							<a href={links}>Watch now on the Apple TV App</a>
+							<a href="http://www.aple.com">Watch now on the Apple TV App</a>
 						</div>
 					</div>
 				</div>
@@ -73,7 +72,7 @@ function SecondComponent() {
 					<div className="right-side-container">
 						<div className="top-logo-wrapper">
 							<div className="logo-wrapper">
-								<img src={watchSeriousLogo} />
+								<img alt="image" src={watchSeriousLogo} />
 							</div>
 						</div>
 						<div className="description-wraper">
@@ -82,8 +81,8 @@ function SecondComponent() {
 						</div>
 						<div className="links-wrapper">
 							<ul>
-								<li><a href={links}>Learn more</a></li>
-								<li><a href={links}>Buy</a></li>
+								<li><a href="http://www.aple.com">Learn more</a></li>
+								<li><a href="http://www.aple.com">Buy</a></li>
 							</ul> 
 						</div>
 					</div>
@@ -99,7 +98,7 @@ function SecondComponent() {
 					<div className="left-side-container">
 						<div className="top-logo-wrapper">
 							<div className="logo-wrapper">
-								<img src={arcade} />
+								<img alt="image" src={arcade} />
 							</div>
 						</div>
 						<div className="description-wraper white">
@@ -107,8 +106,8 @@ function SecondComponent() {
 						</div>
 						<div className="links-wrapper">
 							<ul>
-								<li><a href={links}>Play now<sup>2</sup></a></li>
-								<li><a href={links}>Learn about Apple Arcade</a></li>
+								<li><a href="http://www.aple.com">Play now<sup>2</sup></a></li>
+								<li><a href="http://www.aple.com">Learn about Apple Arcade</a></li>
 							</ul> 
 						</div>						
 					</div>
@@ -123,8 +122,8 @@ function SecondComponent() {
 						</div>
 						<div className="links-wrapper">
 							<ul>
-								<li><a href={links}>Learn more</a></li>
-								<li><a href={links}>Apply now</a></li>
+								<li><a href="http://www.aple.com">Learn more</a></li>
+								<li><a href="http://www.aple.com">Apply now</a></li>
 							</ul> 
 						</div>
 					</div>
