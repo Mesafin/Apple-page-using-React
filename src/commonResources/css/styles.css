@@ -174,7 +174,8 @@ img {
 .links-wrapper ul li a {
 	color: #06c;
 	text-decoration: none;
-	font-size: 21px;
+	font-size: 17px; 
+	/* i change here */
 }
 .links-wrapper ul li a:hover {
 	color: #000;
@@ -337,6 +338,13 @@ img {
 		position: absolute;
 		right: 25px;
 	}
+	.footer-links-wrapper h3.expanded:after {
+		font-family: "FontAwesome";
+		content: "\f00d";
+		padding-left: 10px;
+		position: absolute;
+		right: 25px;
+	}
 }
 @media (min-width: 768px) {
 	/*Nav bar*/
@@ -345,6 +353,7 @@ img {
 		padding: 0;
 		border-bottom: 0px;
 	}	
+	
 	/*Footer styling*/
 	.my-apple-wrapper {
 		border-bottom: 1px solid #d2d2d7

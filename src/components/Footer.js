@@ -1,8 +1,9 @@
 
 import flag from '../commonResources/images/icons/16.png'
-
+import './Toggle.js'
 
 function Footer() {
+  
   return (
     <div>
     <footer className="footer-wrapper">
@@ -131,7 +132,5 @@ function Footer() {
       </footer> 
     </div>
   
-  )
-}
-
+  )};
 export default Footer

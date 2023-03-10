@@ -1,5 +1,5 @@
 
-
+import '../commonResources/css/bootstrap.css'
 import logo from '../commonResources/images/icons/logo-sm.png'
 import search from '../commonResources/images/icons/search-icon-sm.png'
 import cart from '../commonResources/images/icons/cart-sm.png';
